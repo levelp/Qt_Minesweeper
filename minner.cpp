@@ -55,9 +55,9 @@ void Minner::NewGame(int width, int height, int mine) {
 
   a->setupField();
 
-  ui->verticalLayout->addWidget(a);
+  //ui->verticalLayout->addWidget(a);
 
-  ui->verticalLayout->setSpacing(2);
+  //ui->verticalLayout->setSpacing(2);
 
   a->show();
 
@@ -82,7 +82,7 @@ void Minner::setFieldSize3() {
 
 void Minner::clear() {
   if(a != NULL) {
-    ui->verticalLayout->removeWidget(a);
+    //ui->verticalLayout->removeWidget(a);
 
     for (int i = 0; i < a->getFieldWidth(); i++)  delete [] a->arrayButton[i];
 
@@ -123,7 +123,7 @@ void Minner::Readbi() {
 
 void Minner::Restart() {
   if(a != NULL) {
-    ui->verticalLayout->removeWidget(a);
+    //ui->verticalLayout->removeWidget(a);
     delete [] a->arrayButton;
     delete a;
   }
@@ -131,8 +131,8 @@ void Minner::Restart() {
   Readbi();
   a = new mainWid(ui->centralWidget, restartWidth, restartWidth, restartMine);
 
-  ui->verticalLayout->addWidget(a);
-  ui->verticalLayout->setSpacing(2);
+  //ui->verticalLayout->addWidget(a);
+  //ui->verticalLayout->setSpacing(2);
 
   for (int i = 0; i < restartMinPos.size() - 1;  i = i + 2)
 
