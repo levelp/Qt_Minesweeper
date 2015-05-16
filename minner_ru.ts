@@ -6,7 +6,7 @@
     <message>
         <location filename="dialogs.cpp" line="5"/>
         <source>New Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая игра</translation>
     </message>
     <message>
         <location filename="dialogs.cpp" line="7"/>
@@ -19,17 +19,17 @@
     <message>
         <location filename="minner.ui" line="14"/>
         <source>Minner</source>
-        <translation>Сапёр</translation>
+        <translation>Сапёр!!</translation>
     </message>
     <message>
         <location filename="minner.ui" line="227"/>
         <source>New Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая игра</translation>
     </message>
     <message>
         <location filename="minner.ui" line="250"/>
-        <source>Игра</source>
-        <translation type="unfinished"></translation>
+        <source>Game</source>
+        <translation>Игра</translation>
     </message>
     <message>
         <location filename="minner.ui" line="254"/>
@@ -81,7 +81,7 @@
     <name>mainWid</name>
     <message>
         <location filename="mainwid.cpp" line="123"/>
-        <source>Игра окончена</source>
+        <source>Game Over</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
